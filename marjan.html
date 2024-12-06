@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="mjstyle.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Marjan - Cette Semaine Chez Marjan</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="marjane-logo">
+                <div class="dot"></div>
+                <div class="dot2"></div>
+                <span>marjane</span>
+                <img src="logo-marjane-mobile.webp" alt="" class="logoweb">
+            </div>
+            <form class="search-form">
+                <i class="fa-solid fa-magnifying-glass" style="font-size: 20px; color: brown; cursor: pointer"></i>
+                <input type="text" placeholder="Rechercher un produit" class="search-input">
+            </form>
+            <div class="colum-list">
+                <ul class="nav-links">
+                    <li>
+                        <img src="ICON.svg" alt="">
+                        <a href="#courses-en-ligne" class="nav-link">Courses en ligne</a>
+                    </li>
+                    <li>
+                        <img src="promotion.svg" alt="">
+                        <a href="#promotions" class="nav-link">Promotions</a>
+                    </li>
+                    <li>
+                        <img src="carte marjan.svg" alt="">
+                        <a href="#carte-marjane" class="nav-link">Carte Marjane</a>
+                    </li>
+                    <li>
+                        <img src="Group.svg" alt="">
+                        <a href="#group" class="nav-link">Group</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="icons">
+                <div class="icon-container">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="icon-text">Mon Compte</span>
+                </div>
+                <div class="icon-container">
+                    <div class="cart-wrapper">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <span class="icon-text">Panier</span>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="breadcrumbs">
+            <p>Accueil > Marjane > Les offres de la semaine en magasin</p>
+        </div>
+
+        <section class="hero">
+            <img src="Banner Avec CTA copy 2.png" alt="Banner" class="img-banner">
+        </section>
+
+        <section class="offers-section">
+            <h2>Les Offres Imbattables !</h2>
+            <div class="line"></div>
+
+            <div class="slider">
+                <div class="products">
+                    <div class="p1"><img src="ariel.png" alt="" /></div>
+                    <div class="p2"><img src="carte-noire.png" alt="" /></div>
+                    <div class="p3"><img src="dari.png" alt="" /></div>
+                    <div class="p4"><img src="edam.png" alt="" /></div>
+                </div>
+                <button class="prev" onclick="prevslide()">&#10094;</button>
+                <button class="next" onclick="nextslide()">&#10095;</button>
+            </div>
+            <a href="#" class="btn-offers">TOUTES LES OFFERS</a>
+        </section>
+
+        <section class="find-store">
+            <h2>Trouvez Votre Magasin</h2>
+            <div class="line"></div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.2894730571344!2d-7.589843084790192!3d33.57311058073459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3074016c0fd%3A0xa58c8f2f286d5c7c!2sCasablanca%2C%20Morocco!5e0!3m2!1sen!2sus!4v1699475178231!5m2!1sen!2sus"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="commitments">
+            <h2>Engagements Marjane</h2>
+            <div class="line"></div>
+            <div class="commitment-cards">
+                <div><img src="8d517e97-09d7-4de7-b9a9-8827c07be5f8.png" alt="Mieux Manger">
+                    <p>Mieux Manger</p>
+                </div>
+                <div><img src="258f6943-92fb-4669-bb73-593bc9dd60f0.png" alt="Mieux Vivre">
+                    <p>Mieux Vivre</p>
+                </div>
+                <div><img src="e646c32e-4347-43a9-951e-3a01a97a25fb.png" alt="Mieux Consommer">
+                    <p>Mieux Consommer</p>
+                </div>
+            </div>
+            <div class="options">
+                <ul class="op1">
+                    <li>
+                        <h3>Informations légales</h3>
+                    </li>
+                    <li><a href="">Engagements Marjane</a></li>
+                    <li><a href="">CGU & CGV</a></li>
+                    <li><a href="">Informations légales</a></li>
+                </ul>
+                <ul class="op2">
+                    <h3>À propos</h3>
+                    <li><a href="">Marjane Group</a></li>
+                    <li><a href="">Recrutement</a></li>
+                    <li><a href="">Fidélité</a></li>
+                    <li><a href="">SAV</a></li>
+                </ul>
+                <ul class="op3">
+                    <h3>Besoin d'aide ?</h3>
+                    <li>
+                        <h3><a href="">Nous contacter</a></h3>
+                    </li>
+                </ul>
+                <div class="appli">
+                    <h3>Téléchargez notre appli</h3>
+                    <p>Avec l'application Marjane, vous pouvez faire vos achats encore plus rapidement.</p>
+                    <div class="app2">
+                        <a href=""><img src="app-store.svg" alt="Download on the App Store"></a>
+                    </div>
+                    <div class="app3">
+                        <a href=""><img src="google-play-footer.svg" alt="Get it on Google Play"></a>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="#"><img src="facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="linkedin.svg" alt="LinkedIn"></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Marjane - Tous droits réservés - Mentions légales - Données personnelles</p>
+    </footer>
+    <script>
+        let currentSlide = 0;
+
+        function nextslide() {
+            const slides = document.querySelectorAll('.products div');
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+            } else {
+                currentSlide = 0;
+            }
+            updateSlider();
+        }
+
+        function prevslide() {
+            const slides = document.querySelectorAll('.products div');
+            if (currentSlide > 0) {
+                currentSlide--;
+            } else {
+                currentSlide = slides.length - 1;
+            }
+            updateSlider();
+        }
+
+        function updateSlider() {
+            const slides = document.querySelector('.products');
+            const slideWidth = document.querySelector('.products div').offsetWidth;
+            slides.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+        }
+
+        // Optional: Set up automatic slide transition every 5 seconds
+        setInterval(nextslide, 5000);
+
+    </script>
+
+</body>
+
+</html>
